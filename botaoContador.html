@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão contador</title>
+    <link rel="stylesheet" href="botaoContador.css">
+</head>
+<header>
+    <h1>
+        Clique no botão para iniciar a contagem!
+    </h1>
+</header>
+<body >
+     
+    
+    <div id="tt">
+
+        <input type="button" value= "Contagem!" id="botao" onclick="contar()">
+        <input type="button" value="Reiniciar!" id="botao2" onclick="reiniciar()">      
+        <hr>
+
+    <div id="contador">
+
+        Contador = 0
+
+    </div>
+</div>
+
+    <div id="horas" onclick="horas()">
+        Horas
+    </div>
+    <div id="musica">  
+       
+    </div>
+
+   
+
+    <audio id="audio" controls loop volume="0.9">
+        <source src="DonkeyKong.mp3" type="audio/mpeg" >
+        <!-- <source src="Yoshis Island - Underground.mp3" type="audio/mp3" > -->
+    </audio>
+
+    <audio id="audio2" controls loop volume="0.9">
+        <source src="Yoshis Island - Underground.mp3" type="audio/mpeg" >
+        <!-- <source src="Yoshis Island - Underground.mp3" type="audio/mp3" > -->
+    </audio>
+
+    <script src="botaoContador.js"></script>
+</body>
+</html>

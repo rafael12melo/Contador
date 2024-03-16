@@ -1,0 +1,52 @@
+body {
+    background: wheat;
+    font: normal 15pt Arial;
+    text-align: center;    
+}
+h1 {
+    box-shadow: 5px red;
+ font-size: 58px;
+}
+
+#botao, #botao2 {
+    color: rgb(37, 33, 100);
+    font-style: italic;
+    border-radius: 12px;
+    padding: 6px;   
+}
+
+#tt{
+    background: rgb(96, 121, 233);
+    margin: auto;
+    padding: 50px;
+    height: 100px;
+    width: 250px;
+    border: 6px solid black;
+    box-shadow: -10px -10px  rgb(255, 81, 0);
+}
+
+#tt:hover {
+  
+    box-shadow: 10px 10px  rgb(127, 40, 50);
+}
+
+#horas {
+    background: rgba(0, 0, 0, 0);
+    margin: 50px auto;
+    padding: 25px;
+    height: 25px;
+    width: 100px;
+}
+
+#contador {
+    font-size: 25px;
+    margin: auto;
+    padding: 20px;
+    border: 6px solid black;
+}
+
+#audio, #audio2 {
+    display: none;
+}
+
+
